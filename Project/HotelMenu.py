@@ -22,3 +22,11 @@ menu = {
     'Dal Makhani': 110,
     'Roti': 10
 }
+
+#Greet Welcome
+print("Welcome to PYTHON Restaurnat :)")
+for item,price in menu.items():
+    print(f"{item}:Rs{price} :")
+
+
+# Order Calculate 
